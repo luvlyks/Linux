@@ -18,7 +18,7 @@ suro apt autoremove
 
 // 4-1. Back up the current key map
 
-xmodmap -pke > ~/.xmodmap
+xmodmap -pke > ~/xmodmap_original
 
 // 4-2. 오른쪽 Alt키의 기본 키 맵핑을 제거하고 'Hangul'키로 맵핑
 
